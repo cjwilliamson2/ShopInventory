@@ -51,6 +51,7 @@
             btnAddItem.TabIndex = 1;
             btnAddItem.Text = "Add Item";
             btnAddItem.UseVisualStyleBackColor = true;
+            btnAddItem.Click += btnAddItem_Click;
             // 
             // btnClearAll
             // 
@@ -60,6 +61,7 @@
             btnClearAll.TabIndex = 2;
             btnClearAll.Text = "Clear All";
             btnClearAll.UseVisualStyleBackColor = true;
+            btnClearAll.Click += btnClearAll_Click;
             // 
             // btnExit
             // 
@@ -69,6 +71,7 @@
             btnExit.TabIndex = 3;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // frmShopInventory
             // 
@@ -83,6 +86,7 @@
             Controls.Add(lstInventory);
             Name = "frmShopInventory";
             Text = "Shop Inventory";
+            Load += frmShopInventory_Load;
             ResumeLayout(false);
         }
 
